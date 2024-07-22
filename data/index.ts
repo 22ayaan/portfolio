@@ -8,6 +8,7 @@ export const navItems = [
 export const heroProfile = {
   title: "Profile Pic",
   description: "Image for Hero Section",
+  email: "rushilayaan@gmail.com",
   img: "/hero.JPG",
   spareImg: "",
   imgClassName:
