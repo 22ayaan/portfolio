@@ -5,6 +5,15 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+export const heroProfile = {
+  title: "Profile Pic",
+  description: "Image for Hero Section",
+  img: "/hero.JPG",
+  spareImg: "",
+  imgClassName:
+    "rounded-full lg:w-[500px] lg:h-[500px] md:w-[400px] md:h-[400px] w-[300px] h-[300px] mx-auto object-cover",
+};
+
 export const gridItems = [
   {
     id: 1,
