@@ -57,7 +57,7 @@ const Hero = () => {
             words="Hi!👋 I'm Ayaan."
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg xl:text-xl">
             I am a fourth year{" "}
             <span className="text-purple text-decoration-line: underline">
               computer science

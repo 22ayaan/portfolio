@@ -142,7 +142,7 @@ export const BentoGridItem = ({
               >
                 <MagicButton
                   title="View Resume"
-                  icon={<img src="/view.svg" className="w-5 h-5" />}
+                  icon={<img src="/view.svg" className="w-4 h-4" />}
                   position="left"
                   otherClasses="!bg-[#161A31]"
                 />
