@@ -71,7 +71,7 @@ const Hero = () => {
             internships I experienced the world of CS and various career paths
             branching from it. I have recently found interest in the world of{" "}
             <span className="text-purple">finance</span> and the applications of
-            software in the financial industry. Which is why I am pursuing a{" "}
+            software in the financial industry, which is why I am pursuing a{" "}
             <span className="text-purple text-decoration-line: underline">
               Minor in Business Studies
             </span>{" "}
@@ -84,7 +84,7 @@ const Hero = () => {
           </p>
           <a href="#about">
             <MagicButton
-              title="See my work"
+              title="Get to know me"
               icon={<FaLocationArrow />}
               position="right"
             />

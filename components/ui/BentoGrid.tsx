@@ -133,6 +133,36 @@ export const BentoGridItem = ({
           <div className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}>
             {title}
           </div>
+          {id === 1 && (
+            <div className="flex justify-evenly">
+              <a
+                href="/Ayaan-Siddiqui-Resume-USLetter.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MagicButton
+                  title="View Resume"
+                  icon={<img src="/view.svg" className="w-5 h-5" />}
+                  position="left"
+                  otherClasses="!bg-[#161A31]"
+                />
+              </a>
+
+              <a
+                href="/Ayaan-Siddiqui-Resume-USLetter.pdf"
+                target="_blank"
+                download="Ayaan-Siddiqui-Resume"
+                rel="noopener noreferrer"
+              >
+                <MagicButton
+                  title="Download Resume"
+                  icon={<img src="/download.svg" className="w-5 h-5" />}
+                  position="left"
+                  otherClasses="!bg-[#161A31]"
+                />
+              </a>
+            </div>
+          )}
 
           {/* for the github 3d globe */}
           {id === 2 && <GridGlobe />}
