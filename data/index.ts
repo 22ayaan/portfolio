@@ -214,13 +214,21 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/22ayaan",
   },
   {
     id: 2,
     img: "/twit.svg",
+    url: "https://x.com/ayaanrushil",
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/ayaan-r-siddiqui-473aa4222/",
+  },
+  {
+    id: 4,
+    img: "/leet.png",
+    url: "https://leetcode.com/u/22ayaan/",
   },
 ];
