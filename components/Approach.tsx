@@ -5,7 +5,7 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
-    <section className="w-full py-20">
+    <section className="w-full py-20" id="approach">
       <h1 className="heading">
         My <span className="text-purple">approach</span>
       </h1>
@@ -13,11 +13,9 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
+          title="Planning & Research"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="I'll start by defining the project's objectives, scope, and target audience. I'll gather information on similar projects, best practices, and relevant technologies. Additionally, I'll outline the site structure, navigation, and necessary content or features."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Design & Development"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="Based on my research and planning, I'll create sketches or wireframes to visualize the layout and design. Then, I'll dive into coding, implementing features and functionalities while regularly reviewing and testing progress, making adjustments based on feedback."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,11 +44,20 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Testing & Deployment"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="This is where I ensure everything works perfectly. I'll conduct thorough testing to identify and fix bugs or issues. After making final tweaks based on testing results and feedback, I'll launch the project and ensure it functions as expected."
+        >
+          <CanvasRevealEffect
+            animationSpeed={3}
+            containerClassName="bg-green-600 rounded-3xl overflow-hidden"
+            colors={[[125, 211, 252]]}
+          />
+        </Card>
+        <Card
+          title="Maintenance & Improvement"
+          icon={<AceternityIcon order="Phase 4" />}
+          des="After deployment, I'll monitor the project's performance and gather user feedback. I'll make necessary updates or improvements to enhance functionality and user experience. Finally, I'll document the project for future reference or for others to understand my work."
         >
           <CanvasRevealEffect
             animationSpeed={3}
