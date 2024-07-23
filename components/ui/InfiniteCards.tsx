@@ -11,9 +11,15 @@ export const InfiniteMovingCards = ({
   className,
 }: {
   items: {
-    quote: string;
-    name: string;
+    id: number;
     title: string;
+    company: string;
+    location: string;
+    type: string;
+    dateStarted: string;
+    dateEnded: string;
+    desc: string[];
+    iconLists: string[];
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -46,15 +52,9 @@ export const InfiniteMovingCards = ({
   const getDirection = () => {
     if (containerRef.current) {
       if (direction === "left") {
-        containerRef.current.style.setProperty(
-          "--animation-direction",
-          "forwards"
-        );
+        containerRef.current.style.setProperty("--animation-direction", "forwards");
       } else {
-        containerRef.current.style.setProperty(
-          "--animation-direction",
-          "reverse"
-        );
+        containerRef.current.style.setProperty("--animation-direction", "reverse");
       }
     }
   };
@@ -82,7 +82,7 @@ export const InfiniteMovingCards = ({
         ref={scrollerRef}
         className={cn(
           // change gap-16
-          " flex min-w-full shrink-0 gap-16 py-4 w-max flex-nowrap",
+          "flex min-w-full shrink-0 gap-16 py-4 w-max flex-nowrap",
           start && "animate-scroll ",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
@@ -90,8 +90,8 @@ export const InfiniteMovingCards = ({
         {items.map((item, idx) => (
           <li
             //   change md:w-[450px] to md:w-[60vw] , px-8 py-6 to p-16, border-slate-700 to border-slate-800
-            className="w-[90vw] max-w-full relative rounded-2xl border border-b-0
-             flex-shrink-0 border-slate-800 p-5 md:p-16 md:w-[60vw]"
+            className="w-[80vw] max-w-full relative rounded-2xl border border-b-0
+             flex-shrink-0 border-slate-800 px-7 py-5 md:px-16 md:py-14 md:w-[60vw]"
             style={{
               //   background:
               //     "linear-gradient(180deg, var(--slate-800), var(--slate-900)", //remove this one
@@ -104,32 +104,63 @@ export const InfiniteMovingCards = ({
             // change to idx cuz we have the same name
             key={idx}
           >
-            <blockquote>
+            <div className="lg:text-xl md:text-lg text-md font-bold">
+              {item.title}
+            </div>
+            <div className="lg:text-lg md:text-md text-sm font-semibold italic text-purple">
+              {item.company}
+            </div>
+            <div className="">
+              {item.location}{" "}
+              <span className="text-purple italic">({item.type})</span>
+            </div>
+            <div className="md:text-sm text-xs mt-4">
+              {item.dateStarted} - {item.dateEnded}
+            </div>
+            <div>
+              <ul className="lg:text-base md:text-sm text-xs list-disc mt-4 marker:text-purple">
+                {item.desc.map((point, index) => (
+                  <li key={index} className="md:mt-2 mt-1 leading-normal">
+                    {point}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="flex items-center mt-3">
+              {item.iconLists.map((icon, index) => (
+                <div
+                  key={index}
+                  className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                  style={{
+                    transform: `translateX(-${5 * index + 2}px)`,
+                  }}
+                >
+                  <img src={icon} alt="icon5" className="p-2" />
+                </div>
+              ))}
+            </div>
+            {/* <blockquote>
               <div
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-              {/* change text color, text-lg */}
               <span className=" relative z-20 text-sm md:text-lg leading-[1.6] text-white font-normal">
                 {item.quote}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
-                {/* add this div for the profile img */}
                 <div className="me-3">
                   <img src="/profile.svg" alt="profile" />
                 </div>
                 <span className="flex flex-col gap-1">
-                  {/* change text color, font-normal to font-bold, text-xl */}
                   <span className="text-xl font-bold leading-[1.6] text-white">
                     {item.name}
                   </span>
-                  {/* change text color */}
                   <span className=" text-sm leading-[1.6] text-white-200 font-normal">
                     {item.title}
                   </span>
                 </span>
               </div>
-            </blockquote>
+            </blockquote> */}
           </li>
         ))}
       </ul>

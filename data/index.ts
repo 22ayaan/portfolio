@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -175,31 +175,72 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    title: "Fullstack Developer Intern",
+    company: "Tata Consultancy Services",
+    location: "Kolkata, India",
+    type: "On-site",
+    dateStarted: "June 2022",
+    dateEnded: "August 2022",
+    desc: [
+      "Integrated external devices with the local agent node server using their respective SDKs.",
+      "Designed multiple React components for the Passport Seva Kendra Portal with over 400 passports printed in 2 cities.",
+      "Implemented authentication for the Node.js server using JSON Web Token (JWT).",
+      "Secured login credentials by encrypting them with the SHA-512 hashing algorithm using the bCrypt encryption library.",
+    ],
+    iconLists: [
+      "/express.svg",
+      "/re.svg",
+      "/node.svg",
+      "/bcrypt.png",
+      "/jwt.svg",
+      "/postgre.svg",
+      "/js.svg",
+      "/ts.svg",
+    ],
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    title: "Undergraduate Peer Tutor",
+    company: "University of Pittsburgh",
+    location: "Pittsburgh, Pennsylvania",
+    type: "On-site",
+    dateStarted: "January 2024",
+    dateEnded: "April 2024",
+    desc: [
+      "Tutored students in Java programming, enhancing their understanding and skills in object-oriented concepts, data manipulation, and software development.",
+      "Guided students in mastering fundamental concepts of algorithms and data structures in Java, ensuring a strong foundation in computational theory and practical problem-solving skills.",
+    ],
+    iconLists: ["/java.svg"],
+  },
+  {
+    id: 3,
+    title: "SWE Intern",
+    company: "ForcePower InfoTech",
+    location: "Kolkata, India",
+    type: "On-site",
+    dateStarted: "June 2022",
+    dateEnded: "August 2022",
+    desc: [
+      "Trained an image classification machine learning model to classify flower species and various jewelry artifacts using TensorFlow.",
+      "Developed a UI for the image classification model and hosted it on Streamlit.",
+      "Contributed to the design and implementation of an automated grocery billing system using image classification models to replace current barcode-reliant billing methods.",
+    ],
+    iconLists: ["/streamlit.png", "/python.png", "/tf.png"],
+  },
+  {
+    id: 2,
+    title: "Fullstack Developer Intern",
+    company: "IndicSoft Technologies",
+    location: "Noida, India",
+    type: "Hybrid",
+    dateStarted: "May 2022",
+    dateEnded: "August 2022",
+    desc: [
+      "Developed multiple components in React for the Swachh Bharat Mission survey used by billions of citizens.",
+      "Secured authentication using the state-of-the-art tool Avatar, debuted in front of over a million users.",
+      "Contributed to the system design and screen layouts of a Carbon Trading project.",
+    ],
+    iconLists: ["/express.svg", "/re.svg", "/node.svg", "/js.svg", "/ts.svg"],
   },
 ];
 
