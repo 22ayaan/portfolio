@@ -14,6 +14,7 @@ export const InfiniteMovingCards = ({
     id: number;
     title: string;
     company: string;
+    site: string;
     location: string;
     type: string;
     dateStarted: string;
@@ -108,7 +109,14 @@ export const InfiniteMovingCards = ({
               {item.title}
             </div>
             <div className="lg:text-lg md:text-md text-sm font-semibold italic text-purple">
-              {item.company}
+              <a
+                href={item.site}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline"
+              >
+                {item.company}
+              </a>
             </div>
             <div className="">
               {item.location}{" "}
