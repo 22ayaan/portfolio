@@ -37,3 +37,6 @@ next-env.d.ts
 
 # Sentry Config File
 .sentryclirc
+
+# read me snippets
+/read-me-snippets
