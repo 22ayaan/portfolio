@@ -30,6 +30,9 @@
 
 Built with Next.js for handling the user interface, Three.js for rendering 3D elements, Framer motion for beautiful animations, and styled with TailwindCSS.
 
+**Check out the live portfolio [here](https://ayaansiddiqui.vercel.app).**
+
+
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - Next.js
