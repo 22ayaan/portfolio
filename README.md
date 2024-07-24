@@ -1,7 +1,7 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank">
-      <img src="https://github.com/adrianhajdin/portfolio/assets/151519281/c6ca3c03-6cb7-4f67-a9b9-a73da5bfa0d8" alt="Project Banner">
+    <a href="https://ayaansiddiqui.vercel.app" target="_blank">
+      <img width="1440" alt="Screenshot 2024-07-24 at 4 07 59 PM" src="https://github.com/user-attachments/assets/65908ac8-2b43-42e1-b949-7c00811ba63e">
     </a>
   <br />
 
@@ -14,9 +14,6 @@
 
   <h3 align="center">A Modern Next.js Portfolio</h3>
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
