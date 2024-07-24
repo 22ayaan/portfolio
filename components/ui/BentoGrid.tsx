@@ -130,7 +130,7 @@ export const BentoGridItem = ({
           </div>
           {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
           {/* remove mb-2 mt-2 */}
-          <div className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}>
+          <div className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-20`}>
             {title}
           </div>
           {id === 1 && (
@@ -141,7 +141,7 @@ export const BentoGridItem = ({
                 rel="noopener noreferrer"
               >
                 <MagicButton
-                  title="View Resume"
+                  title="View"
                   icon={<img src="/view.svg" className="w-4 h-4" />}
                   position="left"
                   otherClasses="!bg-[#161A31]"
@@ -155,7 +155,7 @@ export const BentoGridItem = ({
                 rel="noopener noreferrer"
               >
                 <MagicButton
-                  title="Download Resume"
+                  title="Download"
                   icon={<img src="/download.svg" className="w-5 h-5" />}
                   position="left"
                   otherClasses="!bg-[#161A31]"

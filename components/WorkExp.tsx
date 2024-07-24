@@ -21,7 +21,7 @@ const WorkExp = () => {
           <InfiniteMovingCards
             items={workExperience}
             direction="right"
-            speed="slow"
+            speed="normal"
           />
         </div>
 

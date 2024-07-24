@@ -58,25 +58,23 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg xl:text-xl">
-            I am a fourth year{" "}
+            I am a fourth-year{" "}
             <span className="text-purple text-decoration-line: underline">
-              computer science
+              Computer Science
             </span>{" "}
             student at the{" "}
-            <span className="text-purple">University of Pittsburgh</span>. I have a
-            passion for{" "}
-            <span className="italic text-purple">web and mobile development</span>{" "}
-            and I am constantly trying to learn new technical skills to enhance my
-            portfolio outside of the classroom. Through the course of my past
-            internships I experienced the world of CS and various career paths
-            branching from it. I have recently found interest in the world of{" "}
-            <span className="text-purple">finance</span> and the applications of
-            software in the financial industry, which is why I am pursuing a{" "}
-            <span className="text-purple text-decoration-line: underline">
-              Minor in Business Studies
+            <span className="text-purple">University of Pittsburgh</span>, passionate
+            about{" "}
+            <span className="italic text-purple">
+              web and mobile app development.
             </span>{" "}
-            to gain an insight into the fusion between the world of finance and
-            technology in the modern world.
+            Always eager to expand my technical skills, I continuously work on
+            enhancing my portfolio outside the classroom. Through internships, I have
+            explored various career paths in computer science, which led me to
+            develop a keen interest in <span className="text-purple">finance</span>.
+            To deepen my understanding of the synergy between finance and technology,
+            I am pursuing a{" "}
+            <span className="text-purple underline">Minor in Business Studies.</span>
           </p>
           <p className="font-mono italic text-center md:tracking-wider mb-4 text-xs md:text-sm lg:text-md text-purple">
             Psssttt...I made this website while learning and using Next.js, Three.js,
@@ -84,7 +82,7 @@ const Hero = () => {
           </p>
           <a href="#about">
             <MagicButton
-              title="Get to know me"
+              title="More about me"
               icon={<FaLocationArrow />}
               position="right"
             />

@@ -48,7 +48,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech enthusiast with a passion for software development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -180,8 +180,8 @@ export const workExperience = [
     site: "https://www.tcs.com/",
     location: "Kolkata, India",
     type: "On-site",
-    dateStarted: "June 2022",
-    dateEnded: "August 2022",
+    dateStarted: "June 2024",
+    dateEnded: "August 2024",
     desc: [
       "Integrated external devices with the local agent node server using their respective SDKs.",
       "Designed multiple React components for the Passport Seva Kendra Portal with over 400 passports printed in 2 cities.",
@@ -237,8 +237,8 @@ export const workExperience = [
     site: "https://www.indicsoft.com/",
     location: "Noida, India",
     type: "Hybrid",
-    dateStarted: "May 2022",
-    dateEnded: "August 2022",
+    dateStarted: "May 2023",
+    dateEnded: "August 2023",
     desc: [
       "Developed multiple components in React for the Swachh Bharat Mission survey used by billions of citizens.",
       "Secured authentication using the state-of-the-art tool Avatar, debuted in front of over a million users.",
