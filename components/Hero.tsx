@@ -78,7 +78,9 @@ const Hero = () => {
           </p>
           <p className="mt-5 font-mono italic text-center md:tracking-wider mb-4 text-xs md:text-sm lg:text-md text-purple">
             Welcome to my Canvas, where I experiment with different ways to paint,
-            express and exhibit my skills using Next.js, Three.js, FramerMotion,
+            express and exhibit my skills. <br />
+            <br />
+            Psssssttt...I built this website using Next.js, Three.js, FramerMotion,
             TypeScript, and TailwindCSS.
           </p>
           <a href="#about">
