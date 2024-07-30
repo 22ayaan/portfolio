@@ -104,6 +104,22 @@ export const projects = [
     iconLists: ["/python.png", "/streamlit.png", "/tf.png"],
     link: "https://github.com/22ayaan/image_ML",
   },
+  {
+    id: 3,
+    title: "PixWiz - AI SaaS",
+    des: "An AI image SaaS platform that excels in image processing capabilities, integrates a secure payment infrastructure, offers advanced image search functionalities, and supports multiple AI features, including image restoration, recoloring, object removal, generative filling, and background removal.",
+    img: "/pixwiz.png",
+    iconLists: [
+      "/ts.svg",
+      "/next.svg",
+      "/tail.svg",
+      "/stripe.svg",
+      "/mongo.svg",
+      "/c.svg",
+      "/cloud.svg",
+    ],
+    link: "https://pixwiz.vercel.app/",
+  },
 ];
 
 export const testimonials = [
