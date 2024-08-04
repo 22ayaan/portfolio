@@ -40,3 +40,5 @@ next-env.d.ts
 
 # read me snippets
 /read-me-snippets
+# Sentry Config File
+.env.sentry-build-plugin
