@@ -98,11 +98,11 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Image Classification Model",
-    des: "Upload images on the Streamlit platform for accurate flower and jewelry predictions with this advanced machine learning model. Experience the future of AI today!",
-    img: "/ml.jpeg",
-    iconLists: ["/python.png", "/streamlit.png", "/tf.png"],
-    link: "https://github.com/22ayaan/image_ML",
+    title: "Horizon Vault",
+    des: "A finance management dashboard that integrates multiple bank accounts, displays real-time transactions, and enables seamless money transfers to other users on the platform.",
+    img: "/hor-vault.png",
+    iconLists: ["/ts.svg", "/next.svg", "/tail.svg", "/appwrite.png-"],
+    link: "https://horizonvault.vercel.app/",
   },
   {
     id: 3,
